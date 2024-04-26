@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #029d69;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid black;
+  height: 400px;
+  width: 300px;
+  background-color: #94bc94;
+  border-radius: 15px;
+}
+
+.titulo-pagina {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.botao {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+
+.botao:hover {
+  background: #1d1b1b;
+  cursor: pointer;
+}
+
+.imagemCachorro {
+  margin-top: 30px;
+}
